@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melvin Vargas</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!--header-->
+    <header class="header">
+        <!--barra de navegación-->
+        <nav class="header__navbar">
+            <a class="navbar--logo" href="#">MV</a>
+            <div class="header__menu">
+                <button class="header__btn btn--close">
+                    <i class='bx bx-x'></i>
+                </button>
+                <ul class="navbar--list">
+                    <li class="list--item">
+                        <a class="list--link active" href="#">Inicio</a>
+                    </li>
+                    <li list--item>
+                        <a class="list--link" href="#">Portafolio</a>
+                    </li>
+                    <li list--item>
+                        <a class="list--link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+            <button class="header__btn btn--open">
+                <i class='bx bx-menu'></i>
+            </button>
+        </nav>
+    </header>
+    <!--main-->
+    <main class="main">
+        <!--sección inicio-->
+        <section class="home">
+            <div class="container">
+                <div class="home__img">
+                    <img class="img--perfil" src="./assets/img/melvin.jpg" alt="foto Melvin Vargas">
+                </div>
+                <div class="home__title">
+                    <h1 class="home__name">Hola!, Soy Melvin Vargas</h1>
+                    <span class="home__subtitle">Full Stack Developer</span>
+                    <p class="home--text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui quidem odio, corporis velit placeat inventore corrupti at minus quod non iste dicta, assumenda tenetur neque aspernatur ex officiis pariatur. Voluptatibus?
+                    </p>
+                </div>
+                <div class="home__icons">
+                    <a class="icons__link" href="#">
+                        <img src="./assets/img/linkedin-square-logo-24.png" alt="">
+                    </a>
+                    <a class="icons__link" href="#">
+                        <img src="./assets/img/github-logo-24.png" alt="">
+                    </a>
+                    <a class="icons__link" href="#">
+                        <img src="./assets/img/behance-logo-24.png" alt="">
+                    </a>
+                    <a class="icons__link" href="#">
+                        <img src="./assets/img/facebook-square-logo-24.png" alt="">
+                    </a>
+                </div>
+                <div class="home__btn">
+                    <button type="button" class="btn--descargar">Descargar CV</button>
+                </div>
+            </div>
+        </section>
+        <!--sección portafolio--> 
+        <section class="portafolio">
+            <h2 class="titulo__seccion">Mis Trabajos</h2>
+            <div class="container">
+                <div class="portafolio__content">
+                    <article class="portafolio__item">
+                        <div class="portafolio__img-content">
+                            <img class="portafolio__img" src="./assets/img/moon.jpg" alt="">
+                        </div>
+                        <div class="portafolio__body">
+                            <h3>Titulo</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae quidem iste voluptatibus dolore deleniti ex distinctio veritatis eligendi, ducimus odit, dolor quasi a recusandae quis libero vel! Ut, eius. Soluta.</p>
+                            <a href="">Ver mas</a>
+                        </div>
+                    </article>
+                    <article class="portafolio__item">
+                        <div class="portafolio__img-content">
+                            <img class="portafolio__img" src="./assets/img/astronaut.jpg" alt="">
+                        </div>
+                        <div class="portafolio__body">
+                            <h3>Titulo</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae quidem iste voluptatibus dolore deleniti ex distinctio veritatis eligendi, ducimus odit, dolor quasi a recusandae quis libero vel! Ut, eius. Soluta.</p>
+                            <a href="">Ver mas</a>
+                        </div>
+                    </article>
+                    <article class="portafolio__item">
+                        <div class="portafolio__img-content">
+                            <img class="portafolio__img" src="./assets/img/milky-way.jpg" alt="">
+                        </div>
+                        <div class="portafolio__body">
+                            <h3>Titulo</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae quidem iste voluptatibus dolore deleniti ex distinctio veritatis eligendi, ducimus odit, dolor quasi a recusandae quis libero vel! Ut, eius. Soluta.</p>
+                            <a href="">Ver mas</a>
+                        </div>
+                    </article>
+                    <article class="portafolio__item">
+                        <div class="portafolio__img-content">
+                            <img class="portafolio__img" src="./assets/img/milky-way2.jpg" alt="">
+                        </div>
+                        <div class="portafolio__body">
+                            <h3>Titulo</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae quidem iste voluptatibus dolore deleniti ex distinctio veritatis eligendi, ducimus odit, dolor quasi a recusandae quis libero vel! Ut, eius. Soluta.</p>
+                            <a href="">Ver mas</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--sección contacto-->
+        <section class="contacto">
+            <h2 class="titulo__seccion">Contacto</h2>
+            <div class="container">
+                <form id="form" class="contacto__form">
+                    <div class="label__input">
+                        <label for="name"><i class='bx bxs-user'></i></label>
+                        <input type="text" id="name" placeholder="Nombre" name="name">
+                        </div>
+                        <div class="label__input">
+                            <label for="email"><i class='bx bx-at'></i></label>
+                        <input type="email" id="email" placeholder="Correo" name="email">
+                        </div>
+                        <div>
+                            <label for="message">Mensaje</label> <br>
+                            <textarea name="message" id="message" rows="10"></textarea>
+                    </div>
+                    <button class="contacto__btn" type="submit">Enviar</button>
+                    </form>
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer class="footer">
+        <p class="footer__copy">&copy; 2023</p>
+      </footer>
+      <script src="./assets/js/script.js"></script>
+</body>
+</html>
