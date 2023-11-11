@@ -35,14 +35,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: #24203b;
-    /*border: 3px solid red;*/
 }
-
-/*
-.header__navbar >* {
-    border: 1px solid yellowgreen;
-}
-*/
 
 .navbar--logo{
     display: flex;
