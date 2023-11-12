@@ -11,7 +11,9 @@
     <header class="header">
         <!--barra de navegación-->
         <nav class="header__navbar">
-            <a class="navbar--logo" href="#">MV</a>
+            <div class="navbar--logo">
+                <a class="logo" href="#">MV</a>
+            </div>
             <div class="header__menu">
                 <button class="header__btn btn--close">
                     <i class='bx bx-x'></i>
@@ -104,7 +106,7 @@
                     </article>
                     <article class="portafolio__item">
                         <div class="portafolio__img-content">
-                            <img class="portafolio__img" src="./assets/img/milky-way2.jpg" alt="">
+                            <img class="portafolio__img" src="./assets/img/hike.jpg" alt="">
                         </div>
                         <div class="portafolio__body">
                             <h3>Titulo</h3>
@@ -123,17 +125,19 @@
                     <div class="label__input">
                         <label for="name"><i class='bx bxs-user'></i></label>
                         <input type="text" id="name" placeholder="Nombre" name="name">
-                        </div>
-                        <div class="label__input">
-                            <label for="email"><i class='bx bx-at'></i></label>
-                        <input type="email" id="email" placeholder="Correo" name="email">
-                        </div>
-                        <div>
-                            <label for="message">Mensaje</label> <br>
-                            <textarea name="message" id="message" rows="10"></textarea>
                     </div>
-                    <button class="contacto__btn" type="submit">Enviar</button>
-                    </form>
+                    <div class="label__input">
+                        <label for="email"><i class='bx bx-at'></i></label>
+                        <input type="email" id="email" placeholder="Correo" name="email">
+                    </div>
+                    <div>
+                        <label for="message">Mensaje</label> <br>
+                        <textarea name="message" id="message" rows="10"></textarea>
+                        </div>
+                    <div class="contacto__button">
+                        <button class="contacto__btn" type="submit">Enviar</button>
+                    </div>
+                </form>
             </div>
         </section>
     </main>
