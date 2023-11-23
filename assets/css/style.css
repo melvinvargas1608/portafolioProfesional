@@ -238,8 +238,8 @@ button{
 }
 
 .stack--img img{
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 
 /* sección portafolio */
@@ -257,7 +257,8 @@ button{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: auto;
-    gap: 40px;
+    gap: 30px;
+    justify-content: center;
 }
 
 .portafolio__img-content {
@@ -287,6 +288,7 @@ button{
     background-color: white;
     margin: 15px;
     border-radius: 8px;
+    height: 500px;
 }
 
   /* Contacto */
