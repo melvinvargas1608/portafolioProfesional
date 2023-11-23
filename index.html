@@ -12,7 +12,7 @@
         <!--barra de navegación-->
         <nav class="header__navbar">
             <div class="navbar--logo">
-                <a class="logo" href="#">MV</a>
+                <a class="logo" href="#home">MV</a>
             </div>
             <div class="header__menu">
                 <button class="header__btn btn--close">
@@ -20,13 +20,16 @@
                 </button>
                 <ul class="navbar--list">
                     <li class="list--item">
-                        <a class="list--link active" href="#">Inicio</a>
+                        <a class="list--link active" href="#home">Inicio</a>
                     </li>
-                    <li list--item>
-                        <a class="list--link" href="#">Portafolio</a>
+                    <li class="list--item">
+                        <a class="list--link active" href="#stack">Tecnologías</a>
                     </li>
-                    <li list--item>
-                        <a class="list--link" href="#">Contacto</a>
+                    <li class="list--item">
+                        <a class="list--link" href="#portafolio">Portafolio</a>
+                    </li>
+                    <li class="list--item">
+                        <a class="list--link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -38,7 +41,7 @@
     <!--main-->
     <main class="main">
         <!--sección inicio-->
-        <section class="home">
+        <section id="home" class="home">
             <div class="container">
                 <div class="home__img">
                     <img class="img--perfil" src="./assets/img/melvin.jpg" alt="foto Melvin Vargas">
@@ -69,46 +72,129 @@
                 </div>
             </div>
         </section>
+        <!--sección tecnologías-->
+        <section id="stack" class="stack">
+            <h1 class="titulo__seccion">Tecnologías</h1>
+            <div class="container">
+                <div class="stack--content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum consequuntur mollitia molestiae, minus sit vel aliquam velit illum alias dolor odio aut fugiat nisi, deserunt libero! Facilis inventore placeat numquam.</p>
+                    <div class="stack--content">
+                        <article class="stack--img">
+                            <div>
+                                <img src="./assets/img/html.svg" alt="html">
+                                <span>HTML</span>
+                            </div>
+                        </article>
+                        <article class="stack--img">
+                            <div>
+                                <img src="./assets/img/css.svg" alt="css">
+                                <span>CSS</span>
+                            </div>
+                        </article>
+                        <article class="stack--img">
+                            <div>
+                                <img src="./assets/img/javascript.svg" alt="javascript">
+                                <span>JavaScript</span>
+                            </div>
+                        </article>
+                        <article class="stack--img">
+                            <div>
+                                <img src="./assets/img/git.svg" alt="git">
+                                <span>Git</span>
+                            </div>
+                        </article>
+                        <article class="stack--img">
+                            <div>
+                                <img src="./assets/img/bash.svg" alt="bash">
+                                <span>Bash</span>
+                            </div>
+                        </article>
+                        <article class="stack--img">
+                            <div>
+                                <img src="./assets/img/react.svg" alt="react">
+                                <span>React</span>
+                            </div>
+                        </article>
+                        <article class="stack--img">
+                            <div>
+                                <img src="./assets/img/slack.svg" alt="slack">
+                                <span>Slack</span>
+                            </div>
+                        </article>
+                        <article class="stack--img">
+                            <div>
+                                <img src="./assets/img/netlify.svg" alt="netlify">
+                                <span>Netlify</span>
+                            </div>
+                        </article>
+                        <article class="stack--img">
+                            <div>
+                                <img src="./assets/img/npm.svg" alt="npm">
+                                <span>NPM</span>
+                            </div>
+                        </article>
+                        <article class="stack--img">
+                            <div>
+                                <img src="./assets/img/vite.svg" alt="vite">
+                                <span>Vite</span>
+                            </div>
+                        </article>
+                        <article class="stack--img">
+                            <div>
+                                <img src="./assets/img/vsc.svg" alt="vsc">
+                                <span>VSC</span>
+                            </div>
+                        </article>
+                        <article class="stack--img">
+                            <div>
+                                <img src="./assets/img/windows.svg" alt="windows">
+                                <span>Windows</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!--sección portafolio--> 
-        <section class="portafolio">
+        <section id="portafolio" class="portafolio">
             <h2 class="titulo__seccion">Mis Trabajos</h2>
             <div class="container">
                 <div class="portafolio__content">
                     <article class="portafolio__item">
-                        <div class="portafolio__img-content">
-                            <img class="portafolio__img" src="./assets/img/moon.jpg" alt="">
-                        </div>
                         <div class="portafolio__body">
+                            <div class="portafolio__img-content">
+                                <img class="portafolio__img" src="./assets/img/moon.jpg" alt="">
+                            </div>
                             <h3>Titulo</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae quidem iste voluptatibus dolore deleniti ex distinctio veritatis eligendi, ducimus odit, dolor quasi a recusandae quis libero vel! Ut, eius. Soluta.</p>
                             <a href="">Ver mas</a>
                         </div>
                     </article>
                     <article class="portafolio__item">
-                        <div class="portafolio__img-content">
-                            <img class="portafolio__img" src="./assets/img/astronaut.jpg" alt="">
-                        </div>
                         <div class="portafolio__body">
+                            <div class="portafolio__img-content">
+                                <img class="portafolio__img" src="./assets/img/astronaut.jpg" alt="">
+                            </div>
                             <h3>Titulo</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae quidem iste voluptatibus dolore deleniti ex distinctio veritatis eligendi, ducimus odit, dolor quasi a recusandae quis libero vel! Ut, eius. Soluta.</p>
                             <a href="">Ver mas</a>
                         </div>
                     </article>
                     <article class="portafolio__item">
-                        <div class="portafolio__img-content">
-                            <img class="portafolio__img" src="./assets/img/milky-way.jpg" alt="">
-                        </div>
                         <div class="portafolio__body">
+                            <div class="portafolio__img-content">
+                                <img class="portafolio__img" src="./assets/img/milky-way.jpg" alt="">
+                            </div>
                             <h3>Titulo</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae quidem iste voluptatibus dolore deleniti ex distinctio veritatis eligendi, ducimus odit, dolor quasi a recusandae quis libero vel! Ut, eius. Soluta.</p>
                             <a href="">Ver mas</a>
                         </div>
                     </article>
                     <article class="portafolio__item">
-                        <div class="portafolio__img-content">
-                            <img class="portafolio__img" src="./assets/img/hike.jpg" alt="">
-                        </div>
                         <div class="portafolio__body">
+                            <div class="portafolio__img-content">
+                                <img class="portafolio__img" src="./assets/img/hike.jpg" alt="">
+                            </div>
                             <h3>Titulo</h3>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae quidem iste voluptatibus dolore deleniti ex distinctio veritatis eligendi, ducimus odit, dolor quasi a recusandae quis libero vel! Ut, eius. Soluta.</p>
                             <a href="">Ver mas</a>
@@ -118,21 +204,21 @@
             </div>
         </section>
         <!--sección contacto-->
-        <section class="contacto">
+        <section id="contacto" class="contacto">
             <h2 class="titulo__seccion">Contacto</h2>
             <div class="container">
                 <form id="form" class="contacto__form">
                     <div class="label__input">
                         <label for="name"><i class='bx bxs-user'></i></label>
-                        <input type="text" id="name" placeholder="Nombre" name="name">
+                        <input type="text" id="name" placeholder="Nombre" name="name" required>
                     </div>
                     <div class="label__input">
                         <label for="email"><i class='bx bx-at'></i></label>
-                        <input type="email" id="email" placeholder="Correo" name="email">
+                        <input type="email" id="email" placeholder="Correo" name="email" required>
                     </div>
                     <div>
                         <label for="message">Mensaje</label> <br>
-                        <textarea name="message" id="message" rows="10"></textarea>
+                        <textarea name="message" id="message" rows="10" required></textarea>
                         </div>
                     <div class="contacto__button">
                         <button class="contacto__btn" type="submit">Enviar</button>

@@ -16,7 +16,6 @@ body{
     box-sizing: border-box;
     /*background-color: #24203b;*/
     font-family: 'Courier New', Courier, monospace;
-    color: white;
 }
 
 header{
@@ -80,6 +79,10 @@ a {
 }
 
 @media (max-width: 768px) {
+    .home {
+        height: 100vh;
+    }
+
     .header__navbar {
         position: fixed;
         top: 0;
@@ -107,6 +110,7 @@ a {
     .show--menu {
         left: 0;
     }
+
 }
 
  /* body */
@@ -124,6 +128,7 @@ main {
     margin: 0 auto;
     margin-bottom: 30px;
     padding-left: 20px;
+    font-size: 30px;
 }
 
 .container {
@@ -142,6 +147,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .home .container{
@@ -213,9 +219,32 @@ button{
     text-transform: uppercase;
 }
 
+/* sección tecnologías */
+.stack--content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0 ;
+    color: #24203b;
+}
+
+.stack--img{
+    width: 200px;
+    height: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.stack--img img{
+    width: 120px;
+    height: 120px;
+}
+
 /* sección portafolio */
 .portafolio{
-    background-color: #E8E8E8;
+    background-color: #f6f0f0;
     color: #24203b;
 }
 
@@ -254,12 +283,16 @@ button{
 }
 
 .portafolio__body {
-    padding: 20px;
+    padding: 15px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 8px;
 }
 
   /* Contacto */
 .contacto{
     background-color: #24203b;
+    color: white;
 }
 
 .label__input {
